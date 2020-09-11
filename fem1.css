@@ -1,548 +1,110 @@
 body {
-            font-family: 'Poppins', sans-serif;
-            height: 1500px; 
-        }
-        .one, .two, .three {
-            text-align: center;
-        }
-        .one {
-            font-size: 60px; 
-            color: #727376;
-        }
-        .two {
-            font-size: 60px;
-            font-weight: 600;
-            margin-top: -60px;
-        }
-        .three {
-            font-size: 35px;
-            width: 70%;
-            margin: auto;
-            color: #727376;
-        }
-        .p1 {
-            height: 350px;
-            width: 25%;
-            border-top-style: solid;
-            border-top-width: 10px;
-            border-top-color: cyan;
-            border-radius: 10px;
-            box-shadow: 5px 10px 10px #888888;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            margin-left: 25px;
-            margin-right: 25px;
-            position: relative;
-            top: 185px; 
-        }
-        .p2 {
-            height: 350px;
-            width: 100%;
-            border-top-style: solid;
-            border-top-width: 10px;
-            border-top-color: red;
-            border-radius: 10px;
-            box-shadow: 5px 10px 10px #888888;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-        .p3 {
-            height: 350px;
-            width: 100%;
-            border-top-style: solid;
-            border-top-width: 10px;
-            border-top-color: orange;
-            border-radius: 10px;
-            box-shadow: 5px 10px 10px #888888;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-        .p4 {
-            height: 350px;
-            width: 25%;
-            border-top-style: solid;
-            border-top-width: 10px;
-            border-top-color: blue;
-            border-radius: 10px;
-            box-shadow: 5px 10px 10px #888888;
-            margin-top: 25px;
-            margin-bottom: 25px;
-            margin-left: 25px;
-            margin-right: 25px;
-            position: relative;
-            top: 185px;
-        }
-        .four {
-            font-size: 35px;
-            font-weight: 600;
-        }
-        .five {
-            font-size: 20px;
-            color: #727376;
-        }
-        .pin {
-            width: 80%;
-            margin-left: 20px;
-            margin-top: 20px;
-            position: relative;
-        }
-        .head2 {
-            display: flex;
-            justify-content: center;
-            position: relative; 
-        }
-        .pp2 {
-            width: 25%;
-            margin-left: 25px;
-            margin-right: 25px;
-        }
-        img {
-            position: absolute;
-            top: 230px;
-            left: 210px;
-        }
-        @media only screen and (max-width: 1024px) {
-            .one, .two, .three {
-                text-align: center;
-            }
-            .one {
-                font-size: 60px;    
-            }
-            .two {
-                font-size: 60px;
-                font-weight: 600;
-                margin-top: -65px;
-            }
-            .three {
-                font-size: 35px;
-                width: 70%;
-                margin: auto;
-            }
-            .p1 {
-                height: 400px;
-                width: 25%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: cyan;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-                margin-left: 25px;
-                margin-right: 25px;
-                position: relative;
-                top: 220px;  
-            }
-            .p2 {
-                height: 400px;
-                width: 100%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: red;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-            }
-            .p3 {
-                height: 400px;
-                width: 100%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: orange;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-            }
-            .p4 {
-                height: 400px;
-                width: 25%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: blue;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-                margin-left: 25px;
-                margin-right: 25px;
-                position: relative;
-                top: 220px;
-            }
-            .four {
-                font-size: 32px;
-                font-weight: 600;
-            }
-            .five {
-                font-size: 18px;
-            }
-            .pin {
-                width: 80%;
-                margin-left: 20px;
-                margin-top: 20px;
-                position: relative;
-            }
-            .head2 {
-                display: flex;
-                justify-content: center;
-                position: relative;  
-            }
-            .pp2 {
-                width: 25%;
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            img {
-                position: absolute;
-                top: 280px;
-                left: 130px;
-            }   
-        }
-        @media only screen and (max-width: 768px) {
-            .one, .two, .three {
-                text-align: center;
-            }
-            .one {
-                font-size: 50px; 
-            }
-            .two {
-                font-size: 50px;
-                font-weight: 600;
-                margin-top: -55px;
-            }
-            .three {
-                font-size: 25px;
-                width: 70%;
-                margin: auto;
-            }
-            .p1 {
-                height: 400px;
-                width: 25%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: cyan;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-                margin-left: 25px;
-                margin-right: 25px; 
-            }
-            .p2 {
-                height: 400px;
-                width: 100%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: red;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-            }
-            .p3 {
-                height: 400px;
-                width: 100%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: orange;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-            }
-            .p4 {
-                height: 400px;
-                width: 25%;
-                border-top-style: solid;
-                border-top-width: 10px;
-                border-top-color: blue;
-                border-radius: 10px;
-                box-shadow: 5px 10px 10px #888888;
-                margin-top: 25px;
-                margin-bottom: 25px;
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            .four {
-                font-size: 25px;
-                font-weight: 600;
-            }
-            .five {
-                font-size: 15px;
-            }
-            .pin {
-                width: 80%;
-                margin-left: 20px;
-                margin-top: 20px;
-                position: relative;
-            }
-            .head2 {
-                display: flex;
-                justify-content: center; 
-            }
-            .pp2 {
-                width: 25%;
-                margin-left: 25px;
-                margin-right: 25px;
-            }
-            img {
-                position: absolute;
-                top: 280px;
-                left: 80px;
-            }   
-        }
-        @media only screen and (max-width: 600px) {
-            .one {
-                font-size: 40px;
-            }
-            .two {
-                font-size: 40px;
-                margin-top: -40px;
-            }
-            .three {
-                font-size: 25px;
-            }
-            .head2 {
-                display: block;
-            }
-            .p1 {
-                width: 90%;
-                margin: 25px auto;
-                height: 520px;
-                position: static;
-            }
-            .p2 {
-                height: 520px;
-            }
-            .p3 {
-                height: 520px;
-            }
-            .pp2 {
-                width: 90%;
-                margin: 25px auto;
-            }
-            .p4 {
-                width: 90%;
-                margin: 25px auto;
-                height: 520px;
-                position: static;
-            }
-            .pin {
-                position: relative;
-            }
-            .four {
-                font-size: 40px;
-            }
-            .five {
-                font-size: 35px;
-            }
-            img {
-                position: absolute;
-                top: 370px;
-                left: 350px;
-            }
-        }
-        @media only screen and (max-width: 500px) {
-            .one {
-                font-size: 35px;
-            }
-            .two {
-                font-size: 35px;
-                margin-top: -35px;
-            }
-            .three {
-                font-size: 20px;
-            }
-            .head2 {
-                display: block;
-            }
-            .p1 {
-                width: 90%;
-                margin: 25px auto;
-                height: 500px;
-                position: static;
-            }
-            .p2 {
-                height: 500px;
-            }
-            .p3 {
-                height: 500px;
-            }
-            .pp2 {
-                width: 90%;
-                margin: 25px auto;
-            }
-            .p4 {
-                width: 90%;
-                margin: 25px auto;
-                height: 500px; 
-            }
-            .pin {
-                position: relative;
-            }
-            .four {
-                font-size: 40px;
-            }
-            .five {
-                font-size: 30px;
-            }
-            img {
-                position: absolute;
-                top: 350px;
-                left: 290px;
-            }
-        }
-        @media only screen and (max-width: 425px) {
-            .one {
-                font-size: 30px;
-            }
-            .two {
-                font-size: 30px;
-                margin-top: -30px;
-            }
-            .three {
-                font-size: 16px;
-            }
-            .head2 {
-                display: block;
-            }
-            .p1 {
-                width: 90%;
-                margin: 25px auto;
-                height: 450px;
-                position: static;
-            }
-            .p2 {
-                height: 450px;
-            }
-            .p3 {
-                height: 450px;
-            }
-            .pp2 {
-                width: 90%;
-                margin: 25px auto;
-            }
-            .p4 {
-                width: 90%;
-                margin: 25px auto;
-                height: 450px;
-            }
-            .pin {
-                position: relative;
-            }
-            .four {
-                font-size: 35px;
-            }
-            .five {
-                font-size: 30px;
-            }
-            img {
-                position: absolute;
-                top: 320px;
-                left: 240px;
-            }
-        }
-        @media only screen and (max-width: 375px) {
-            .one {
-                font-size: 25px;
-            }
-            .two {
-                font-size: 25px;
-                margin-top: -22px;
-            }
-            .three {
-                font-size: 16px;
-            }
-            .head2 {
-                display: block;
-            }
-            .p1 {
-                width: 90%;
-                margin: 25px auto;
-                height: 400px;
-            }
-            .p2 {
-                height: 400px;
-            }
-            .p3 {
-                height: 400px;
-            }
-            .pp2 {
-                width: 90%;
-                margin: 25px auto;
-            }
-            .p4 {
-                width: 90%;
-                margin: 25px auto;
-                height: 400px;
-            }
-            .pin {
-                position: relative;
-            }
-            .four {
-                font-size: 30px;
-            }
-            .five {
-                font-size: 25px;
-            }
-            img {
-                position: absolute;
-                top: 280px;
-                left: 200px;
-            }
-        }
-        @media only screen and (max-width: 320px) {
-            .one {
-                font-size: 16px;
-            }
-            .two {
-                font-size: 16px;
-                margin-top: -15px;
-            }
-            .three {
-                font-size: 12px;
-            }
-            .head2 {
-                display: block;
-            }
-            .p1 {
-                width: 90%;
-                margin: 25px auto;
-                height: 300px;
-            }
-            .p2 {
-                height: 300px;
-            }
-            .p3 {
-                height: 300px;
-            }
-            .pp2 {
-                width: 90%;
-                margin: 25px auto;
-            }            
-            .p4 {
-                width: 90%;
-                margin: 25px auto;
-                height: 300px;
-            }
-            .pin {
-                position: relative;
-            }
-            .four {
-                font-size: 25px;
-            }
-            .five {
-                font-size: 18px;
-            }
-            img {
-                width: 50px;
-                position: absolute;
-                top: 200px;
-                left: 160px;
-            }
-            .container {
-                width: 320px;
-            }
-        }
-        /* LIKE IS APPLICABLE WITH ALL CSS PROPERTIES, THE PRORPERTY UNDER TAKES PRECEDENCE OVER/OVERIDE THE PROPERTY ON TOP OF IT. */
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-section {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.up {
+    width: 400px;
+    font-size: 30px;
+    font-weight: 200;
+    color: #4c4e61;
+    margin: auto;
+}
+
+.down {
+    width: 400px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 7px auto;
+}
+
+.p-one {
+    width: 345px;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #a3a5ae;    
+}
+
+.box-section {
+    padding-top: 10px;
+    /* used the next two properties before knowing what they are used for  */
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+    
+    
+}
+
+.box {
+    border-top-style: solid;
+    border-top-width: 7px;
+    border-radius: 10px;    
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 350px;
+    
+}
+
+.box h2 {
+    margin: auto;
+    margin-top: 30px;
+	width: 280px;
+	line-height: 2;
+	
+}
+
+.box p{  
+    margin: auto;
+    padding-left: 20px;
+    padding-right: px;
+    color: #a3a5ae;
+    line-height: 2;
+    font-size: 15.5px;
+    width: 200px;  
+    
+}
+
+.box img {
+    position: relative;
+    top: 75px;
+    left: 250px;
+    max-width: 20%;
+}
+
+.box p {
+    margin: auto;
+    width: 300px;
+}
+
+.first-box{
+    border-color:  #45d3d3;
+}
+
+.second-box{
+    border-color:  #ea5353;
+}
+
+.third-box{
+    border-color:  #fcaf4a;
+}
+
+.fourth-box{
+    border-color:  #549ef2;
+    
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    min-width: 270px;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
